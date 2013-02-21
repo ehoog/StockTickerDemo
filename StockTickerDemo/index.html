@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Stock Ticker using Web Sockets!</title>
+    <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="Scripts/StockTicker.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div>
+        <input id="stockQuoteFB" type="radio" name="stockQuote" checked="checked"/><label for="stockQuoteFB">Facebook</label>
+        <input id="stockQuoteGOOG" type="radio" name="stockQuote" /><label for="stockQuoteGOOG">Google</label>
+    </div>
+    <div>
+        <button id="startButton" value="Start">Start</button>&nbsp;
+        <button id="stopButton" value="Stop" disabled="disabled">Stop</button>
+    </div>
+    <div id="stockQuoteInfo">
+    </div>
+
+</body>
+</html>
